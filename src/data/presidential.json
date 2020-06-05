@@ -1,0 +1,37 @@
+{
+  "title": "Presidential Preference Poll",
+  "description": "Who would you prefer for president?",
+  "races": [
+    {
+      "name": "faveMethod",
+      "title": "President",
+      "description": "Indicate which preseidential candidates you support",
+      "candidates": [
+        {
+          "name": "Joe Biden",
+          "bioUrl": "https://www.electionscience.org/library/approval-voting/",
+          "party": "Democrat",
+          "partyUrl": "https://www.electionscience.org/"
+        },
+        {
+          "name": "Donald Trump",
+          "bioUrl": "https://www.starvoting.us/",
+          "party": "Repuyblican",
+          "partyUrl": "https://www.equal.vote/"
+        },
+        {
+          "name": "Bernie Sanders",
+          "bioUrl": "https://www.fairvote.org/rcv",
+          "party": "Democrat",
+          "partyUrl": "https://www.fairvote.org/"
+        },
+        {
+          "name": "Kiefer Sutherland",
+          "bioUrl": "https://www.fairvote.org/rcv",
+          "party": "Independent",
+          "partyUrl": "https://www.fairvote.org/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+.candidate {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: right;
+  border-bottom: 1px solid black;
+  margin-bottom: 8px;
+  color: gray;
+}
+
+.candidate .name {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.candidate .party {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.candidate > .label {
+  width: 200px;
+  margin: 8px;
+}
+
+.candidate > .ranker {
+  margin: 16px;
+}
+
+.candidate a:link,
+.candidate a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.candidate a:hover {
+  background-color: #f7e8b7;
+}
+
+.error {
+  color: red;
+}
+
+.circle {
+  display: inline-flex;
+  flex-direction: row;
+  height: 1.25em;
+  width: 1.25em;
+  background-color: #fff;
+  border: 2px solid #808080;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  cursor: pointer;
+  margin-right: 0.5em;
+}
+
+.circle.filled,
+.star.filled {
+  background-color: black;
+}
+
+.circle:hover,
+.star:hover {
+  border-color: blue;
+}
+
+.circle p,
+.star p {
+  margin-top: 0.125em;
+  margin-left: 0.3em;
+  text-align: left;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.star {
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: row;
+  width: 1.75em;
+  height: 1.75em;
+  background-color: grey;
+  -webkit-clip-path: polygon(
+    50% 0%,
+    63% 38%,
+    100% 38%,
+    69% 59%,
+    82% 100%,
+    50% 75%,
+    18% 100%,
+    31% 59%,
+    0% 38%,
+    37% 38%
+  );
+  clip-path: polygon(
+    50% 0%,
+    63% 38%,
+    100% 38%,
+    69% 59%,
+    82% 100%,
+    50% 75%,
+    18% 100%,
+    31% 59%,
+    0% 38%,
+    37% 38%
+  );
+}
+
+.star.selected {
+  background-color: red;
+}

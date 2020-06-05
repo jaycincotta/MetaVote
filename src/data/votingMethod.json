@@ -1,0 +1,31 @@
+{
+  "title": "Try out the leading alternative voting methods",
+  "description": "Which voting method do you prefer?",
+  "races": [
+    {
+      "name": "faveMethod",
+      "title": "Favorite Voting Method",
+      "description": "Indicate which voting methods you support",
+      "candidates": [
+        {
+          "name": "Approval Voting",
+          "bioUrl": "https://www.electionscience.org/library/approval-voting/",
+          "party": "Center for Election Science",
+          "partyUrl": "https://www.electionscience.org/"
+        },
+        {
+          "name": "STAR Voting",
+          "bioUrl": "https://www.starvoting.us/",
+          "party": "Equal Vote Coalition",
+          "partyUrl": "https://www.equal.vote/"
+        },
+        {
+          "name": "Ranked Choice Voting",
+          "bioUrl": "https://www.fairvote.org/rcv",
+          "party": "FairVote.org",
+          "partyUrl": "https://www.fairvote.org/"
+        }
+      ]
+    }
+  ]
+}

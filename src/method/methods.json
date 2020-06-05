@@ -1,0 +1,23 @@
+{
+  "av": {
+    "id": "av",
+    "name": "Approval Voting",
+    "minRating": 0,
+    "maxRating": 1,
+    "rangeError": "Approval ratings must be 0 or 1"
+  },
+  "star": {
+    "id": "star",
+    "name": "STAR Voting",
+    "minRating": 0,
+    "maxRating": 5,
+    "rangeError": "STAR ratings must be between 0 and 5"
+  },
+  "rcv": {
+    "id": "rcv",
+    "name": "Ranked Choice Voting",
+    "minRating": 0,
+    "maxRating": 9,
+    "rangeError": "RCV ratings must be between 0 and the number of candidates"
+  }
+}
